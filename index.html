@@ -16,9 +16,9 @@
 </head>
 <body>
     <div id="app">
-        <ul>
+        <ul v-for="text in mails">
             <li>
-                <p @click="fetchMail">prova</p>
+                {{text}}
             </li>
         </ul>
     </div>
